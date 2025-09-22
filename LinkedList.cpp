@@ -152,18 +152,22 @@ int main()
     List.add_back(20);
     List.add_back(30);
     List.Insert(15, 1);
+    
     cout << "duyet xuoi: ";
     List.traverse_forward();
+    
     cout << "duyet nguoc: ";
     List.print_reverse();
+    
     List.del_front();
     cout << "phan tu sau khi xoa phan tu dau la: ";
     List.traverse_forward();
+    
     List.del_back();
     cout << "phan tu sau khi xoa phan tu cuoi la: ";
     List.traverse_forward();
 
-     
     cout << "phan tu o vi tri thu 1 la: " << List.get(1) << endl;
     return 0;
 }
+
